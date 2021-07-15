@@ -1,6 +1,152 @@
-h1{
-    color: aqua;
+/* --------fonts---------- */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+.hedder{
+    background: #2D25A0;
 }
-p{
-    color: blue;
+ul{
+    display: flex;
+}
+nav li{
+    list-style: none;
+    margin-right: 36px;
+}
+nav li a{
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.container1{
+    position: flex;
+    width: 870px;
+    height: 700px;
+    left: 0px;
+    top: 0px;
+
+
+}
+.link-button{
+    text-decoration: none;
+    background-color: rgb(87, 176, 248);
+    padding-left: 30px;
+    padding-top: 20px;
+    font-weight: 400;
+    color: white;
+    border-radius: 5px;
+    
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+
+    position: absolute;
+    width: 100px;
+    height: 44px;
+    left: 156px;
+    top: 550px;
+
+}
+
+
+.hadding-line{
+    position: absolute;
+width: 485px;
+height: 230px;
+left: 156px;
+top: 207px;
+
+font-family: Poppins;
+font-style: normal;
+font-weight: bold;
+font-size: 64px;
+line-height: 80px;
+color: white;
+}
+
+
+.hadding-photo{
+    position: absolute;
+width: 556.01px;
+height: 438px;
+left: 1299.01px;
+top: 153px;
+
+background: url(1648334-world-cup-football-player-kick-off-football-kick-football-png-980_772_preview.png);
+
+}
+
+/* top-side--------------------------------------------------------- */
+
+
+/* common styles */
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    background-color: #FFFFFF;
+}
+main{
+    display: flex;
+    justify-content: center;
+}
+.container{
+    background-color: #FFFFFF;
+    width: 870px;
+    padding: 30px;
+}
+
+hr{
+    border: 1px solid #d1d1d1;
+}
+/* ------------top players style-------------- */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.player img{
+   width: 56px;
+   height: 56px; 
+}
+.top-players{
+    display: flex;
+}
+
+/* ------------------top blogs styles----------- */
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-row-gap: 27px;
+    grid-column-gap: 30px;
+}
+
+.blog{
+    position: flex;
+    flex-direction: row;
+    width: 330px;
+    height: 474px;
+    left: 180px;
+    top: 747px;
+    padding: 15px;
+    box-shadow: 5px 5px  25px gray;
+}
+
+.blog .thumbnail img{
+    width: 300px;
+    height: 256px;
+    margin: 16px 0px;
+}
+.blog-author{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+
+
+    position: static;
+width: 300px;
+height: 154px;
+left: 0px;
+top: 272px;
 }
